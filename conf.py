@@ -36,7 +36,6 @@ extensions = [
     'sphinx_design',
     'sphinx_tabs.tabs',
     'sphinx_reredirects',
-    'youtube-links',
     'related-links',
     'custom-rst-roles',
     'terminal-output',
