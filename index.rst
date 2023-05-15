@@ -1,5 +1,5 @@
 Ubuntu on AWS
-======================================================
+=============
 
 Whether you are moving to Amazon Web Services or are already running cloud-native, 
 Ubuntu is the platform of choice for AWS.
@@ -9,10 +9,11 @@ and stability are built-in from the moment your machines and containers launch.
 
 Today, Ubuntu powers billions of mission-critical workloads.
 
----------
+
+Hello :ref:`public-cloud-docs:home` !!!!!
 
 AWS Services
----------------------
+------------
 
 ..  grid:: 1 1 2 2
 
