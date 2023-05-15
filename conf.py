@@ -13,6 +13,22 @@ author = 'Canonical Group Ltd'
 copyright = "%s, %s" % (datetime.date.today().year, author)
 release = '1.0'
 
+
+# Open Graph configuration - defines what is displayed in the website preview
+ogp_site_url = "https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/"
+ogp_site_name = project
+ogp_image = "https://assets.ubuntu.com/v1/253da317-image-document-ubuntudocs.svg"
+
+html_context = {
+    # Change to the discourse instance you want to be able to link to
+    "discourse_prefix": "https://discourse.ubuntu.com/t/",
+    # Change to the GitHub info for your project
+    "github_url": "https://github.com/canonical/sphinx-docs-guide",
+    "github_version": "main",
+    "github_folder": "/",
+    "github_filetype": "rst"
+}
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -20,16 +36,32 @@ extensions = [
     'sphinx_design',
     'sphinx_tabs.tabs',
     'sphinx_reredirects',
-    'sphinx.ext.intersphinx']
+    'youtube-links',
+    'related-links',
+    'custom-rst-roles',
+    'terminal-output',
+    'sphinx_copybutton',
+    'sphinx.ext.intersphinx',
+    'sphinxext.opengraph'
+    ]
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.sphinx', 'readme.rst']
 
 intersphinx_mapping = {
-    'public-cloud-docs': ('https://canonical-public-cloud-docs.readthedocs-hosted.com/', None)
+    'starter-pack': ('https://canonical-starter-pack.readthedocs-hosted.com/', None)
 }
+rst_epilog = """
+.. include:: /reuse/substitutions.txt
+.. include:: /reuse/links.txt
+"""
+
+# Links to ignore when checking links
+linkcheck_ignore = []
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+
+templates_path = [".sphinx/_templates"]
 
 html_theme = 'furo'
 html_last_updated_fmt = ""
