@@ -9,8 +9,13 @@ and stability are built-in from the moment your machines and containers launch.
 
 Today, Ubuntu powers billions of mission-critical workloads.
 
+Trial reference link of home from public-cloud-docs - :ref:`public-cloud:home` 
 
-Hello new :ref:`public-cloud-docs:home` !!!!!
+Check: :ref:`public-cloud:home` !!
+
+Trial include of readme.rst from public-cloud-docs !!!
+
+.. include:: ../readme.rst
 
 AWS Services
 ------------
