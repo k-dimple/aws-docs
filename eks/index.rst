@@ -1,9 +1,10 @@
 Ubuntu on EKS
 ======================================================
 
-Add details here. Include trials within a single git repo -----------------
+Add details here. 
+Include trials -----------------
 
-.. include:: ../readme.rst
+.. include:: ../../common-content/readme.rst
 ---------
 
 In this documentation

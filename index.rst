@@ -13,9 +13,9 @@ Trial reference link of home from public-cloud-docs - :ref:`public-cloud:home`
 
 Check: :ref:`public-cloud:home` !!
 
-Trial include of readme.rst from public-cloud-docs !!!
+Trial include of readme.rst from common-content !!!
 
-.. include:: ../readme.rst
+.. include:: ../../index.rst
 
 AWS Services
 ------------
