@@ -20,7 +20,7 @@ extensions = [
     'sphinx_design',
     'sphinx_tabs.tabs',
     'sphinx_reredirects',
-     'sphinx.ext.intersphinx']    
+    'sphinx.ext.intersphinx']    
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.sphinx', 'readme.rst']
 
