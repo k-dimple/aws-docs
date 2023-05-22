@@ -15,7 +15,7 @@ Check: :ref:`public-cloud:home` !!
 
 Trial include of readme.rst from common-content !!!
 
-.. include:: ../readme.rst
+.. include:: ../common-content/readme.rst
 
 AWS Services
 ------------
