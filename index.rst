@@ -9,9 +9,9 @@ and stability are built-in from the moment your machines and containers launch.
 
 Today, Ubuntu powers billions of mission-critical workloads.
 
-Trial reference link of home from public-cloud-docs - :ref:`public-cloud:home` 
+Trial reference link of home from public-cloud-docs - :ref:`public-cloud-docs:home` 
 
-Check: :ref:`public-cloud:home` !!
+Check public-cloud: :ref:`public-cloud:home` !!
 
 Trial include of readme.rst from common-content !!!
 
@@ -28,11 +28,10 @@ AWS Services
 
    ..  grid-item:: :doc:`EKS <eks/index>`
 
-      **Ubuntu images on EKS** 
+      **Ubuntu images on EKS**
 
 
 .. toctree::
-   :hidden:
    :maxdepth: 2
 
    ec2/index
