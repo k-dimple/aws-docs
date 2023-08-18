@@ -16,5 +16,5 @@ jobs:
         uses: errata-ai/vale-action@reviewdog
         with:
           # Cause the check to fail on any broke rules
-          fail-on-error: true
+          fail_on_error: true
 
